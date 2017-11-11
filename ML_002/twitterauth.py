@@ -1,0 +1,10 @@
+import sys
+
+CONSUMER_KEY = None
+CONSUMER_SECRET = None
+
+ACCESS_TOKEN_KEY = None
+ACCESS_TOKEN_SECRET = None
+
+if CONSUMER_KEY is None or CONSUMER_SECRET is None or ACCESS_TOKEN_KEY is None or ACCESS_TOKEN_SECRET is None:
+    sys.exit(1)
